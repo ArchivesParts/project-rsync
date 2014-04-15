@@ -1,0 +1,14 @@
+{
+  "name": "project-rsync",
+  "main": "./lib/project-rsync",
+  "version": "0.0.0",
+  "description": "Atom.io package to manage project synchronization with a remote server",
+  "activationEvents": ["project-rsync:toggle"],
+  "repository": "https://github.com/gregonmac/project-rsync.git",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

@@ -1,0 +1,16 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  '.overlayer':
+      'Enable project-rsync': 'project-rsync:toggle'
+
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'project-rsync'
+      'submenu': [
+        { 'label': 'Toggle', 'command': 'project-rsync:toggle' }
+      ]
+    ]
+  }
+]
